@@ -1,0 +1,71 @@
+header {
+    background-color: #10316B;
+    text-align: center;
+color: #E25822;
+
+}
+
+html{
+    background-color: #10316B;}
+
+nav {
+    background-color: #000000;
+    color: white;
+}
+
+
+section{
+
+    background-color: #000000;
+    grid-column: 1/4;
+    color: white;
+}
+
+aside{
+
+    background-color: #E25822;
+    grid-column: 4/5;
+    color: white;
+}
+
+footer{
+     background-color: #ECECEB;
+}
+
+main{
+    background-color: #222831;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+
+
+html, body,  iframe { 
+    margin:0; padding:0; height:100vh;
+
+}
+
+
+.pdf{ 
+    margin:0; padding:0; height:1000px; 
+    text-align: center;
+    width:1200px;
+}
+
+.Titulo_Temas{
+color: #E25822;
+text-align: center;
+}
+
+h3{
+color: turquoise;
+}
+
+summary{
+    
+    color: #E25822;
+}
+
+article {
+    
+ margin-right: 50px;
+}

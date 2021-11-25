@@ -12,11 +12,60 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </head>
 <body >
-    <header>
-        <h1> Sintaxis y Selectores CSS, Interacción Humano Ordenador</h1>
-    </header>
-       
-        <nav>
+    <header class="container-fluid" style="background-color: #10316B;">
+        <div class="row">
+ <div><h1>Sintaxis y Selectores CSS, Interacción Humano Ordenador </h1>
+</div>
+</header>
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #000000;">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" 
+          aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <button type="button" class="btn" style="background-color: #6cf37e;" >
+                <a class="dropdown-item" href="Inicio.html">HOME</a></button>
+              </li>
+              <div class="btn-group">
+                <button type="button" class="btn dropdown-toggle" style="background-color: #5debd8;" data-bs-toggle="dropdown" aria-expanded="false">
+                  TEMAS
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Index.html">Tema 1:Introducción</a></li>
+                  <li><a class="dropdown-item" href="Index2.html">Tema 2:Selectores Básicos</a></li>
+                </ul>
+              </div>
+              <div class="btn-group">
+                <button type="button" class="btn dropdown-toggle" style="background-color: #6b81ff;" data-bs-toggle="dropdown" aria-expanded="false">
+                  MATERIAL MULTIMEDIA
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Index3.html">Tema 1:Video Introducción CSS</a></li>
+                  <li><a class="dropdown-item" href="Index4.html">Tema 2:PDF Selectores CSS </a></li>
+                </ul>
+              </div>
+              <div class="btn-group">
+                <button type="button" class="btn dropdown-toggle" style="background-color: #fcff68;" data-bs-toggle="dropdown" aria-expanded="false">
+                  APRENDIZAJE
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Index5.html">Evaluacion 1</a></li>
+                  <li><a class="dropdown-item" href="Index6.html">Evaluacion 2</a></li>
+                </ul>
+              </div>
+              <li class="nav-item">
+                <button type="button" class="btn" style="background-color: #ff5be4;"> 
+                    <a class="dropdown-item" href="Index7.html">FICHA TECNICA DE AUTOR</a></button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+        <nav><br>
             <details open>
                 <summary>INDICE</summary>
             <ul><details>
@@ -69,7 +118,8 @@
             
             <li><h3>Aprendizaje</h3></li>
             <ul>
-                <li>Crear Una pagina Html</li>
+                <li>Evaluacion 1</li>
+                <li>Evaluacion 2</li>
             </ul>
 
             <li><h3>Aserca de</h3></li>
@@ -80,15 +130,14 @@
 <hr>
 
 <main>
-<section>
-    <ul><h2 class="Titulo_Temas">VIDEO SOBRE CSS </h2><br>
+<section><br>
+    <ul><h2 class="Titulo_Temas">EVALUACION 2</h2><br><br>
 <article>
-    <iframe  width="1200" height="800" src="https://www.youtube.com/embed/62UMIb5BMgM" title="YouTube video player" frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="pdf" src="https://docs.google.com/forms/d/e/1FAIpQLScca8IWEGnf-5rb5bvl_GurfsnxWhDtplZvFGP4uk1ks9Fe5w/viewform?embedded=true" 
+    width="640" height="2524" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+</article>
 
- </article>
-
-<a href="Index4.html"><h2 class="Titulo_Temas" style="text-align: center;">Tema 4 PDF</h2></a>
+<a href="Index7.html"><h2 class="Titulo_Temas" style="text-align: center;">Tema 7 AUTOR</h2></a>
 
 </section>
 </ul>
